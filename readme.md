@@ -1,5 +1,17 @@
 # Quantum Mechanical Keyboard Firmware
 
+## Ravioli keymap commands
+
+To compile after making changes:
+```
+qmk compile -kb crkbd -km ravioli
+```
+
+To flash it:
+```
+qmk flash -kb crkbd -km ravioli
+```
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Build Status](https://travis-ci.org/qmk/qmk_firmware.svg?branch=master)](https://travis-ci.org/qmk/qmk_firmware)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh)
