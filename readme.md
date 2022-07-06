@@ -9,7 +9,7 @@ qmk compile -kb crkbd -km ravioli
 
 To flash it:
 ```
-qmk flash -kb crkbd -km ravioli
+qmk flash -kb crkbd -km ravioli -bl dfu
 ```
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
