@@ -7,9 +7,14 @@ To compile after making changes:
 qmk compile -kb crkbd -km ravioli
 ```
 
-To flash it:
+To flash the Pro micro:
 ```
 qmk flash -kb crkbd -km ravioli
+```
+
+To flash the Elite-C:
+```
+qmk flash -kb crkbd -km ravioli -bl dfu
 ```
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
